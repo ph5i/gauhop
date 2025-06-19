@@ -28,10 +28,10 @@ to save the URLs to a file for testing later:
 python3 gauhop.py -r example.com -t dev.example.com -o urls.txt
 ```
 
-to solely extract the raw endpoints for later use:
-```
-python3 gauhop.py -r example.com -t dev.example.com --raw -o urls.txt
-```
+### todo
+- add deduplication support
+- add option to extract solely the raw endpoints, e.g., instead of `http://example.com/foo/bar.png` --> `/foo/bar.png`
+- benchmark against manual flow
 
 ### license
 ---
